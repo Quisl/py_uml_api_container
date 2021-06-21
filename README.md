@@ -1,3 +1,11 @@
+https://hub.docker.com/r/quisl/py_uml_api
+
+Run this:
+
+```bash
+docker run quisl/py_uml_api
+```
+
 This container accepts python code via POST and returns a class diagram as png image. Created by Pyreverse.
 
 It listens to... :8000/get_python_uml

@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.13
 EXPOSE 8000
 COPY scripts/main.py /scripts/main.py
 

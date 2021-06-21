@@ -1,0 +1,15 @@
+<form action="http://localhost:8000/get_python_uml" method="post">
+  <textarea rows="5" cols="60" name="pythoncode">
+class A:
+  def __init__(self):
+    print("Hallo Welt")
+    </textarea>
+  <input type="checkbox" name="builtin" id="builtin">
+  <label for="builtin">show builtin classes</label>
+  <input type="checkbox" name="ancestor" id="ancestor">
+  <label for="ancestor"></label>show all ancestor classes</label>
+  <input type="checkbox" name="associated" id="associated">
+  <label for="associated"></label>show all associated classes recursivly</label>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
